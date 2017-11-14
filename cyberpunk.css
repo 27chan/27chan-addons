@@ -1,0 +1,341 @@
+/*
+PARA TROCAR AS CORES
+MUDE OS VALORES DENTRO DA TAG ROOT
+NÃO PRECISA MEXER NO CÓDIGO
+*/
+
+:root {
+  --bg: #0C0001;
+  --pink: #FF46D2;
+  --green: #00ff00;
+  --teal: #33CCCC;
+  --darkpump: #B332E6;
+  --darkblue: #00080C;
+  --spoiler: #020f16;
+}
+
+body {
+  background: var(--bg);
+  color: var(--pink);
+  font-family: monospace;
+  font-size: 11px;
+  /*text-shadow: 0px 0px 3px var(--pink);*/
+}
+
+.bar {
+  background-color: var(--bg);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+div.boardlist {
+  background-color: var(--bg)!important;
+  text-align: center;
+}
+
+.bar.top {
+  border-bottom: 2px solid #3CC!important;
+  background-color: var(--bg);
+}
+
+.bar.bottom {
+  border-top: 2px solid #3CC!important;
+  background-color: var(--bg);
+}
+
+@font-face {
+  font-family: 'lain';
+  src: url('./fonts/nrdyyh.woff') format('woff'), url('./fonts/tojcxo.TTF') format('truetype');
+}
+
+h1 {
+  font-family: monospace, Arial;
+  font-size: 18pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+div.title, h1 {
+  color: var(--pink);
+  font-family: lain, Helvetica, sans-serif;
+}
+
+header div.subtitle {
+  color: var(--green);
+  text-align: center;
+  text-shadow: 0px 0px 4px var(--green);
+}
+
+div.title p {
+  font-size: 13px;
+}
+
+a:link, a:visited, p.intro a.email span.name {
+  color: var(--green);
+  text-shadow: 0px 0px 10px var(--green);
+  font-family: monospace;
+}
+
+pre.prettyprint {
+  background: var(--darkblue);
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid var(--teal);
+  padding: 10px;
+}
+
+a:link, a:visited, p.intro a.email span.name {
+  -moz-transition: 0.15s text-shadow, 0.15s color;
+  -webkit-transition: 0.15s text-shadow, 0.15s color;
+  -khtml-transition: 0.15s text-shadow, 0.15s color;
+  -o-transition: 0.15s text-shadow, 0.15s color;
+  -ms-transition: 0.15s text-shadow, 0.15s color;
+  transition: 0.15s text-shadow, 0.15s color;
+}
+
+input[type="text"], textarea {
+  -moz-transition: 0.15s border-color;
+  -webkit-transition: 0.15s border-color;
+  -khtml-transition: 0.15s border-color;
+  -o-transition: 0.15s border-color;
+  -ms-transition: 0.15s border-color;
+  transition: 0.15s border-color;
+}
+
+input[type="submit"] {
+  -moz-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+  -webkit-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+  -khtml-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+  -o-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+  -ms-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+  transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+}
+
+a:link:hover, a:visited:hover {
+  color: var(--green);
+  font-family: monospace;
+  ;
+  text-shadow: 0px 0px 10px var(--green);
+}
+
+strong {
+  color: var(--green);
+}
+
+a.post_no {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+span.quote {
+  color: var(--green);
+}
+
+a.post_no:hover {
+  color: maroon;
+  /*text-decoration: underline overline;*/
+}
+
+div.post.reply {
+  background: var(--bg);
+  border: var(--teal) 3px solid;
+  border-radius: 5px;
+}
+
+.de-pview {
+  background: rgba(14, 14, 14, 0.84) !important;
+}
+
+div.post.reply.highlighted {
+  background: transparent;
+  border: #00FF9F 2px solid;
+}
+
+div.post.reply div.body a:link, div.post.reply div.body a:visited {
+  color: #3d7e3d;
+}
+
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
+  color: var(--green);
+}
+
+span.spoiler {
+    background: var(--spoiler);
+    color: var(--spoiler);
+    padding: 0 1px;
+}
+
+p.intro span.subject {
+  font-size: 12px;
+  font-family: monospace;
+  color: var(--green);
+  font-weight: 800;
+  text-shadow: 0px 0px 4px var(--green);
+}
+
+p.intro span.name {
+  color: var(--green);
+  font-weight: 900;
+  text-shadow: 0px 0px 4px var(--green);
+}
+
+p.intro a.capcode, p.intro a.nametag {
+  color: var(--green);
+  margin-left: 0;
+}
+
+p.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
+  color: var(--green);
+  font-family: monospace;
+}
+
+input[type="text"], textarea, select {
+  background: var(--darkblue);
+  color: #CCCCCC;
+  border: var(--teal) 1px solid;
+  padding-left: 5px;
+  padding-right: -5px;
+  font-family: monospace;
+  font-size: 10pt;
+  border-radius: 5px;
+}
+
+input[type="password"] {
+  background: var(--darkblue);
+  color: #CCCCCC;
+  border: var(--teal) 1px solid;
+  border-radius: 5px;
+}
+
+form table tr th {
+  background: var(--darkblue);
+  color: var(--green);
+  border: var(--teal) 1px solid;
+  font-weight: 800;
+  text-align: left;
+  padding: 0;
+  border-radius: 5px;
+  text-shadow: 0px 0px 4px var(--green);
+}
+
+div.sidearrows {
+  display: none;
+}
+
+div.banner {
+  background: var(--bg);
+  color: var(--green);
+  text-align: center;
+  width: 250px;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  text-shadow: 0px 0px 3px var(--green);
+}
+
+input[type="submit"] {
+  background: var(--darkblue);
+  color: var(--green);
+  border: var(--teal) 1px solid;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background: var(--darkblue);
+  border: var(--teal) 1px solid;
+  color: var(--pink);
+  border-radius: 5px;
+}
+
+p.fileinfo a:hover {
+  text-decoration: underline;
+}
+
+span.trip {
+  color: #AAAAAA;
+}
+
+.topbar {
+  background-color: black;
+  border-bottom: 1px solid var(--teal);
+}
+
+div.pages {
+  color: #AAAAAA;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+div.pages a.selected {
+  color: #8C8C8C;
+}
+
+hr {
+  height: 0px;
+  border: var(--teal) 1px solid;
+}
+
+div.boardlist {
+  font-size: 9pt;
+  color: #999999;
+}
+
+div.ban {
+  background-color: transparent;
+  border: var(--teal) 1px solid;
+}
+
+div.ban h2 {
+  background: transparent;
+  color: var(--green);
+  font-size: 11px;
+  text-shadow: 0px 0px 4px var(--green);
+}
+
+table.modlog tr th {
+  background: var(--pink);
+  color: #AAAAAA;
+  /*text-shadow: 0px 0px 3px var(--green);*/
+}
+
+.options_tab_icon {
+  color: var(--pink);
+}
+
+.options_tab_icon.active {
+  color: var(--green);
+  text-shadow: 0px 0px 10px var(--green);
+}
+
+#options_div {
+  background-color: var(--bg);
+  border: var(--teal) 2px solid;
+  border-radius: 5px;
+}
+
+#options_tablist {
+  border: var(--teal) 1px solid;
+}
+
+time {
+  color: var(--teal);
+}
+
+
+/* MENU SECTION */
+
+div#options_div {
+  background-color: var(--bg);
+}
+
+div.options_tab_icon.active {
+  color: var(--green);
+}
+
+div.options_tab_icon {
+  color: var(--pink);
+}
