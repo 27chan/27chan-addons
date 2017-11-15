@@ -1,59 +1,59 @@
-/*27chan Chanokai v1.3*/
+/*27chan Chanokai v1.4: no opacity*/
 
 body {
   background: #282828;
-  color: #EBDBB2B0;
+  color: rgb(187, 172, 133);
 }
 
 div.post.reply {
-  background: #363836B0;
+  background: rgb(49, 51, 49);
   border-width: 0px;
 }
 
 .intro span.subject {
-  color: #458588B0;
+  color: rgb(58, 115, 117);
 }
 
 a, a:visited {
-  color: #83a598B0;
+  color: rgb(108, 141, 128);
 }
 
 span.heading {
-  color: #CC241DBF;
+  color: rgb(177, 34, 29);
 }
 
 hr {
-  border-top-color: #92837420;
+  border-top-color: #413c37;
 }
 
 span.quote {
-  color: #98971aB0;
+  color: rgb(131, 129, 23);
 }
 
 span.spoiler {
   background: #1d2021;
-  color: #1d2021B0;
+  color: #1d2021;
 }
 
 div.post.reply div.body a {
-  color: #f27768b3;
+  color: #d1665a;
 }
 
 div.post.reply.highlighted{
-  background: #464846B0;
+  background: rgb(74, 77, 74);
 }
 
 .intro span.name {
-  color: #d3869b60;
+  color: #815c66;
 }
 
 .intro a.email span.name {
-  color: #4B4B6FB3
+  color: rgb(75, 75, 111)
 }
 
 .desktop-style div.boardlist:not(.bottom){
   border-bottom: 0;
-  background-color: #32302fDD;
+  background-color: rgb(53, 51, 50);
   box-shadow: 0 5px 2px rgba(0, 0, 0, .15);
 }
 
@@ -63,7 +63,7 @@ form table tr th {
 }
 
 #options_div{
-  background: #363836EF;
+  background: rgb(54, 56, 54);
 }
 
 div.ban {
@@ -76,7 +76,7 @@ div.ban h2 {
 }
 
 div.pages {
-  color: #83a598B0;
+  color: rgb(109, 136, 125);
   background: transparent;
   border-right: 0;
   border-bottom: 0;
