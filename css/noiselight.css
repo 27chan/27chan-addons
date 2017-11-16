@@ -722,7 +722,7 @@ pre {
 }
 #options_div,#alert_div {
 	background-color:#faf5c0;
-	border:1px solid rgb(232,196,53);
+	border:1px solid rgb(119,119,119);
 	display:inline-block;
 	position:relative;
 	margin-top:20px;
@@ -760,7 +760,7 @@ pre {
 	top:0px;
 	bottom:0px;
 	height:100%;
-	border-right:1px solid rgb(232,196,53);
+	border-right:1px solid rgb(119,119,119);
 }
 .options_tab_icon {
 	padding:5px;
@@ -788,6 +788,7 @@ pre {
 	overflow-y:auto;
 }
 .options_tab h2 {
+	color:black;
 	text-align:center;
 	margin-bottom:5px;
 }
@@ -1059,4 +1060,19 @@ table.fileboard .intro a {
 }
 .dropzone .remove-btn:hover {
 	color:rgba(125,125,125,1);
+}
+
+/* options.js */
+
+#options_div,
+#alert_div {
+    background: rgb(119, 119, 119);
+}
+
+.options_tab_icon {
+    color: black;
+}
+
+.options_tab_icon.active {
+    color: #d8d8d8;
 }
