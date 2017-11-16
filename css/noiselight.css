@@ -254,10 +254,7 @@ div.post.reply {
 	border-color:#cecdcb;
 	padding:0.5em;
 }
-div.post.reply:hover {
-	background:#fff584;
-	border-color:#D1BC0B;
-}
+
 span.trip {
 	color:#228854;
 }
