@@ -1,17 +1,27 @@
 # 27chan-themes
 
-### 27chan Original
+### [27chan Original](https://raw.githubusercontent.com/anonynom/27chan-addons/master/css/27chan.css)
 ![27chan](https://i.imgur.com/pPKCOxr.png "27chan")
 
 ---
 
-### Chanokai
+### [Chanokai](https://raw.githubusercontent.com/anonynom/27chan-addons/master/css/chanokai.css)
 ![Chanokai](https://i.imgur.com/qy3WEDW.png "Chanokai")
 
 ---
 
-### Cyberpunk
+### [Cyberpunk](https://raw.githubusercontent.com/anonynom/27chan-addons/master/css/cyberpunk.css)
 ![Cyberpunk](https://i.imgur.com/aCtmvLQ.png "Cyberpunk")
+
+---
+
+### [Terminal](https://raw.githubusercontent.com/anonynom/27chan-addons/master/css/terminal.css)
+![Terminal](https://i.imgur.com/OrL1tVR.png "Terminal")
+
+---
+
+### [Noise Light](https://github.com/anonynom/27chan-addons/blob/master/css/noiselight.css)
+![NoiseLight](https://i.imgur.com/A4W3gvW.png "NoiseLight")
 
 ---
 
@@ -20,5 +30,3 @@
 
 ---
 
-### Terminal
-![Terminal](https://i.imgur.com/OrL1tVR.png "Terminal")
