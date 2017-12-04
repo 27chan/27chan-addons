@@ -1,4 +1,4 @@
-/*27chan Chanokai v1.4: no opacity*/
+/*27chan Chanokai v1.5: no opacity*/
 
 body {
   background: #282828;
@@ -80,4 +80,12 @@ div.pages {
   background: transparent;
   border-right: 0;
   border-bottom: 0;
+}
+
+span.public_warning {
+  color: #4848A4;
+}
+
+span.public_ban {
+  color: #b62121;
 }
