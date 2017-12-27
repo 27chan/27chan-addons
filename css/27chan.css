@@ -1,13 +1,13 @@
 body {
 	font-family: arial,helvetica,sans-serif;
-	background: url(https://i.imgur.com/vxSqRPi.jpg);
+	background: url(https://i.imgur.com/GHmrlgm.png);
 	background-repeat:repeat-x;
 	background-position: center top;
 	color: #000;
 }
 
 html {
-	background-image: url(https://i.imgur.com/vxSqRPi.jpg);
+	background-image: url(https://i.imgur.com/PFp6WXa.png);
 	background-position: center top;
 	background-repeat:repeat;
 }
@@ -210,13 +210,6 @@ div.post .post-image {
   margin: 0 20px 0 0;
 }
 
-.rainbow {
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
 
 div.post img.icon {
   display: inline;
@@ -510,6 +503,10 @@ hr {
   border-top: 1px solid #d8c030;
   height: 0;
   clear: left;
+}
+
+.desktop-style div.boardlist:not(.bottom) {
+  background: none repeat scroll 0 0 rgba(255,255,255,0.6);
 }
 
 div.boardlist {
