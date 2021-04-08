@@ -1,0 +1,246 @@
+body{
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/steam-v2.png) center top no-repeat #1b2838;
+    color:#c6d4df
+}
+a,a:visited,a.ytfile,a.ytfile:hover,.ytlink{
+    text-decoration:none;
+    color:#67c1f5
+}
+div.post a,div.body a,p.fileinfo a,span.mentioned.unimportant a{
+    text-decoration:none
+}
+a:hover,p.intro a.post_no:hover,a:hover,.intro a.post_no:hover,.ytlink:hover,a.popular,div.boardlist a:hover{
+    color:#fff
+}
+.intro span.name{
+    color:#d2e885
+}
+p.intro a.email span.name{
+    color:#eee
+}
+p.intro a.email:hover span.name{
+    color:#fff
+}
+p.intro label{
+    display:inline
+}
+.intro span.subject{
+    color:#4c6b22
+}
+header div.subtitle,h1,h2{
+    color:#b8b6b4
+}
+h2 a{
+}
+h2{
+    padding:0;
+    background-color:rgba( 103,193,245,0.4 );
+    font-size:11pt;
+    font-weight:700;
+    text-align:center;
+    margin:1em 0
+}
+a.unimportant.ukkohide{
+    margin-left:8px
+}
+form table tr th{
+    color:#eee;
+    border-color:#284c67;
+    background-color:rgba( 103,193,245,0.2 )
+}
+table.postForm>tbody>tr>td>input[type=text]{
+}
+input[type=text],input[type=password],textarea{
+    background:#202d39;
+    border:1px solid #374254;
+    color:#eee
+}
+input[type=text]:focus,input[type=password]:focus,input:focus:not([type]),textarea:focus{
+    border:1px solid #5fc1d9
+}
+.dropzone{
+    background-color:#1d293a
+}
+div.title{
+    color:maroon
+}
+div.banner{
+    background-color:#171a21;
+    font-size:12pt;
+    font-weight:700;
+    text-align:center;
+    margin:1em 0
+}
+div.banner,div.banner a{
+    color:#b8b6b4
+}
+div.banner a:hover{
+    color:#fff;
+    text-decoration:none
+}
+a.hide-thread-link,a.unhide-thread-link{
+}
+.mais{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais_steam.png)
+}
+.menos{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos_steam.png)
+}
+div.post.op hr{
+    border-color:#4a5c6f
+}
+div.post.reply{
+    background:#16202d;
+    border-color:#16202d
+}
+div.post.reply.highlighted{
+    background:#202d39;
+    border-color:#202d39
+}
+div.post.reply div.body a,div.post div.body small{
+    color:#c6d4df
+}
+span.trip{
+    color:#d2e885
+}
+span.quote{
+    color:#648123
+}
+span.omitted{
+    color:#bcd1e1
+}
+div.ban{
+    border:1px solid #3c6c96
+}
+div.ban h2{
+    background:#3c6c96;
+    color:#67c1f5;
+    margin-top:0
+}
+span.spoiler{
+    background:#000;
+    color:#000;
+    padding:0 1px
+}
+table.test tr.h th{
+    background:#93e4c9
+}
+div.pages{
+    color:#798591;
+    background-color:#16202d;
+    border-color:#16202d
+}
+div.pages a.selected{
+    color:#ddd
+}
+@media screen and (max-width:800px){
+    div.pages.top{
+    }
+}
+hr{
+    border-color:#4a5c6f
+}
+div.boardlist{
+    color:#474747
+}
+div.boardlist a{
+    color:#c6d4df
+}
+div.report{
+    color:#333
+}
+table.modlog tr th{
+    color:#fff;
+    border:1px solid #631c00;
+    background-color:#ec5315
+}
+td.minimal,th.minimal{
+}
+span.public_ban{
+    color:#ff4e55
+}
+div.blotter{
+}
+div.report{
+    color:#000
+}
+table.mod.config-editor td{
+    border-bottom:1px solid #93e4c9
+}
+.desktop-style div.boardlist:nth-child(1){
+    background-color:#171a21;
+    border-color:#171a21
+}
+video.post-image{
+    display:block;
+    float:left;
+    margin:10px 20px;
+    border:none
+}
+div.post video.post-image{
+    padding:0;
+    margin:10px 25px 5px 5px
+}
+.form{
+}
+#options_close i,#alert_close i{
+    background-color:#274155;
+    border-color:#667181
+}
+#options_div,#alert_div{
+    background-color:#1a3349;
+    border:none
+}
+#options_tablist{
+    border-color:#5d677b
+}
+.options_tab_icon.active{
+    color:#67c1f5;
+    background-color:rgba(255,255,255,.15)
+}
+.options_tab{
+}
+.options_tab h2{
+    color:#b8b6b4;
+    border-color:#5d677b;
+    background:0 0
+}
+div#watchlist{
+    background:#16202d;
+    border-width:1px;
+    border-top-width:1px;
+    border-right-width-value:1px;
+    border-bottom-width:1px;
+    border-left-width-value:1px
+}
+.more{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais_steam.png)
+}
+.lesss{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos_steam.png)
+}
+form div.files>div.delete input{
+    background-color:#ff7800;
+    color:#fff
+}
+input#upload_file{
+    border:medium;
+    width:198px;
+    margin-right:30px
+}
+#quick-reply table{
+}
+#quick-reply th{
+    border:1px solid #284c67
+}
+.theme-catalog div.thread:hover{
+    background-color:#253341;
+    border-color:#333f4e
+}
+div.post div.body small{
+    font-size:12px;
+    margin-left:-2px
+}
+footer .copyright{
+    color:#777
+}

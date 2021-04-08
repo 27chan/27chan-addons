@@ -1,0 +1,265 @@
+/*!* BRchan
+* by bananalchan.org*/
+body{
+    background:#ffe;
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg.png');
+    background-repeat:repeat-x,repeat;
+    background-attachment:scroll,scroll;
+    color:#242B23;
+    font-family:arial,helvetica,sans-serif;
+    font-size:10pt;
+}
+div.ban.oficial{
+    margin-bottom:30px;
+}
+div.ban.oficial ul{
+    margin:05px;
+    padding:0;
+    float:left;
+    width:12em;
+}
+div.ban.oficial ul a{
+    text-decoration:none;
+    color:#333;
+}
+div.ban.oficial ul a:hover{
+    text-decoration:underline
+}
+div.ban.oficial ul li:first-child{
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:13px
+}
+div.ban.oficial ul li{
+    font-size:100%;
+    list-style:none;
+    line-height:130%;
+    font-size:93%;
+}
+.box{
+    background:#FFF79A;
+    border:1px solid #E7C107;
+    color:#000
+}
+.box-title{
+    background:#ffe677;
+    color:#000000
+}
+table.board-list-table tr:nth-of-type( even ) .board-tags .board-cell,table.board-list-table tr:nth-of-type( odd ) .board-tags .board-cell,table tbody tr:nth-of-type( even ){
+    background-color:transparent;
+}
+table.board-list-table tbody tr:nth-of-type( odd ),table.board-list-table tbody tr:nth-of-type( odd ) .board-cell:hover{
+    background:#FFF375
+}
+table.board-list-table tbody tr:nth-of-type( even ),table.board-list-table tbody tr:nth-of-type( even ) .board-cell:hover{
+    background:#FFF79A
+}
+table thead th,tbody.board-list-omitted td{
+    border-color:#E7C107;
+    background:#ffe677
+}
+ul.tag-list{
+    border-top-color:#E7C107;
+}
+a:hover{
+    color:red!important;
+}
+a.post_no{
+    color:#800000;
+}
+div.banner{
+    background-color:#045F11;
+}
+.bl-menu{
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg.png');
+    background-repeat:repeat-x,repeat;
+    background-attachment:scroll,scroll;
+}
+.boardlist .board a{
+    background:#65AB6B;
+    border:1px solid #054500;
+    color:#054500;
+    font-weight:600;
+}
+div.post.reply{
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    border:2px solid #E5D959;
+    webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    -o-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+}
+div.post.reply.highlighted{
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    border:2px dashed #65ab6b;
+    webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    -o-box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
+}
+div.post.reply div.body a{
+    color:#00E;
+}
+.intro span.subject{
+    color:#cc1105;
+}
+form table tr th{
+    background:#65AB6B;
+    border:1px solid #054500;
+    font-weight:600;
+}
+.active-ukko h2{
+    text-align:center;
+    background-color:#045f11;
+    margin:3px;
+    color:#FFF;
+}
+.active-ukko h2 a{
+    color:#FFF;
+}
+.active-ukko h2 a.ukkohide{
+    margin-left:3px;
+}
+div.ban h2{
+    background:#ffe677;
+    font-size:12pt;
+}
+div.ban{
+    background:#fff79a;
+    border:1px solid #e7c107;
+    max-width:750px;
+    margin:0 auto;
+    margin-bottom:15px;
+}
+div.ban p{
+    color:black;
+}
+div.pages{
+    color:#054500;
+    background:#000;
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    border:#E5D959 2px solid;
+    font-family:sans-serif;
+    font-size:10pt;
+}
+div.pages a.selected{
+    color:#800;
+}
+div.pages a,a:visited{
+    text-decoration:none;
+    color:#002b56;
+}
+div.pages a:hover,.intro a.post_no:hover{
+    color:#9e9100;
+}
+div.pages input[type="submit"]{
+    background:#cfcfcf;
+    border:#E5D959 1px solid;
+    color:#000;
+}
+div.pages input[type="submit"]:hover{
+    background:#a8a8a8;
+    border:#E5D959 1px solid;
+    color:#000;
+}
+hr{
+    border-width:1px;
+    border-color:#054500;
+}
+div.boardlist{
+    color:#52794F;
+    font-size:9pt;
+}
+div.boardlist a{
+    color:#195319;
+}
+.post-hover{
+    border:solid 1px #265026!important;
+}
+table.modlog tr th{
+    background:#65ab6b;
+}
+.intro span.name{
+    color:maroon;
+    font-weight:600;
+}
+img.banner,img.board_image{
+    border:none;
+}
+header div.subtitle,h1{
+    color:#054500;
+}
+.desktop-style div.boardlist:not(.bottom){
+    background-color:#B3C87F;
+}
+.desktop-style div.boardlist:not(.bottom):hover,.desktop-style div.boardlist:nth-child(1).cb-menu{
+    background-color:#CADC9D;
+}
+.options_tab h2{
+    font-size:24px;
+    color:#033;
+    background:#CADC9D;
+    margin:0px;
+}
+.options_tab{
+    background-color:#EBF2DB;
+    padding:0px;
+}
+#options_tablist{
+    background:#CADC9D;
+    border-right:1px dotted #033;
+}
+.options_tab_icon.active{
+    color:#36B629;
+}
+#options_div{
+    border:1px solid #CADC9D;
+}
+#options_div textarea{
+    height:200px;
+}
+footer{
+    text-align:center;
+}
+ul.tabs{
+    padding:0px;
+    font-size:0;
+    list-style-type:none;
+    text-align:center;
+    padding-left:20px;
+}
+ul.tabs li{
+    display:inline;
+    margin:8px;
+    background:White;
+    margin-left:-4px;
+}
+ul.tabs li a{
+    top:-06px;
+    font:normal 12px Verdana;
+    text-decoration:none;
+    position:relative;
+    padding:7px 22px;
+    color:#000;
+    outline:none;
+    background:#f8d640;
+    border-right:0;
+}
+ul.tabs li a:hover{
+    color:#000;
+    background:#ffe677;
+}
+ul.tabs li.selected a,ul.tabs li.selected a:hover{
+    font-weight:normal;
+    background:#ffe677;
+    color:#000;
+}
+div.tabcontents{
+    border-top:1px solid;
+}

@@ -1,0 +1,235 @@
+body{
+    background:#eefff2 url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/fade-green.png) repeat-x 50% 0%
+}
+a,a:visited,a.ytfile,a.ytfile:hover,.ytlink,div.post.reply div.body a{
+    text-decoration:none;
+    color:#335b33
+}
+div.post a,div.body a,p.fileinfo a,span.mentioned.unimportant a{
+    text-decoration:none
+}
+a:hover,p.intro a.post_no:hover,a:hover,.intro a.post_no:hover,.ytlink:hover,a.popular{
+    color:#e04000
+}
+.intro span.name{
+    color:#114377
+}
+p.intro a.email span.name{
+    color:#1c2f30
+}
+p.intro a.email:hover span.name{
+    color:#e04000
+}
+p.intro label{
+    display:inline
+}
+.intro span.subject{
+    color:#0f5d0c
+}
+header div.subtitle,h1{
+    color:#042
+}
+h2 a{
+    color:#003c3c!important
+}
+h2{
+    color:#055;
+    padding:0;
+    background-color:rgba(151,255,216,.34);
+    font-size:11pt;
+    font-weight:700;
+    text-align:center;
+    margin:1em 0
+}
+a.unimportant.ukkohide{
+    margin-left:8px
+}
+blockquote>a[onclick^=highlightReply],div.post div.body small{
+    color:#d30!important
+}
+form table tr th{
+    color:#041;
+    border:1px solid #041;
+    background-color:#9da
+}
+tr.tblhead>th{
+    color:#fff!important
+}
+table.postForm>tbody>tr>td>input[type=text]{
+    width:244px
+}
+input[type=text]:focus,input[type=password]:focus,input:focus:not([type]),textarea:focus{
+    border-color #ee9887
+}
+div.title{
+    color:maroon
+}
+div.banner{
+    background-color:rgba(151,255,216,.34);
+    font-size:12pt;
+    font-weight:700;
+    text-align:center;
+    margin:1em 0
+}
+div.banner,div.banner a{
+    color:#003c3c
+}
+div.banner a:hover{
+    color:#af0a0f;
+    text-decoration:none
+}
+a.hide-thread-link,a.unhide-thread-link{
+}
+.mais{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais.png)
+}
+.menos{
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos.png)
+}
+div.post.op hr{
+    border-color:#b7c9d5
+}
+div.post.reply{
+    background:#d6f0da;
+    border-color:#b7d9c5
+}
+div.post.reply.highlighted{
+    background:#d6d0ba;
+    border-color:#babf9d
+}
+div.post.reply div.body a,div.post div.body small{
+    color:#1c2f30
+}
+span.trip{
+    color:#228854
+}
+span.quote{
+    color:#648123
+}
+span.omitted,span.toolong{
+    color:#707070
+}
+div.ban{
+    border:1px solid #179956
+}
+div.ban h2{
+    background:#a0e6cb;
+    color:#0b6537;
+    margin-top:0
+}
+span.spoiler{
+    background:#000;
+    color:#000;
+    padding:0 1px
+}
+table.test tr.h th{
+    background:#a0e6cb
+}
+div.pages{
+    color:#88aa92;
+    background:#d6f0dc;
+    border-color:#b7d9c3
+}
+@media screen and (max-width:800px){
+    div.pages.top{
+    }
+}
+hr,img.banner,img.board_image{
+    border-color:#b7d9c5
+}
+div.boardlist{
+    color:#88aa92
+}
+div.report{
+    color:#333
+}
+table.modlog tr th{
+    color:#fff;
+    border:1px solid #631c00;
+    background-color:#ec5315
+}
+td.minimal,th.minimal{
+}
+span.public_ban{
+    color:#ed1c24
+}
+div.blotter{
+    color:red
+}
+div.report{
+    color:#000
+}
+table.mod.config-editor td{
+    border-bottom:1px solid #a0e6cb
+}
+.desktop-style div.boardlist:nth-child(1){
+    background-color:#d6f0dd;
+    border-color:#a9a9a9
+}
+video.post-image{
+    display:block;
+    float:left;
+    margin:10px 20px;
+    border:none
+}
+div.post video.post-image{
+    padding:0;
+    margin:10px 25px 5px 5px
+}
+.form{
+    float:left
+}
+#options_close i,#alert_close i{
+    background-color:#89cc93;
+    border-color:#0c5c1d
+}
+#options_div,#alert_div{
+    background-color:#d6f0da;
+    border:none
+}
+#options_tablist{
+    border-color:#b7d9c5
+}
+.options_tab_icon.active{
+    color:#e04000
+}
+.options_tab{
+}
+.options_tab h2{
+    color:#044;
+    border-color:#b7d9c5;
+    background:0 0
+}
+div#watchlist{
+    background:#d6f0e4 solid #b6dbdc;
+    border-width:1px;
+    border-top-width:1px;
+    border-right-width-value:1px;
+    border-bottom-width:1px;
+    border-left-width-value:1px
+}
+form div.files>div.delete input{
+    background-color:#ff7800;
+    color:#fff
+}
+input#upload_file{
+    border:medium;
+    width:198px;
+    margin-right:30px
+}
+#quick-reply table{
+    background-color:#cde9d7;
+    border:1px solid #b6d9bb
+}
+#quick-reply th{
+    border-color:#041
+}
+.theme-catalog div.thread:hover{
+    background-color:#d6f0e4;
+    border-color:#b6dbdc
+}
+div.post div.body small{
+}
+footer .copyright{
+    color:#777
+}

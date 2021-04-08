@@ -1,0 +1,307 @@
+body{
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/armas.jpg) repeat 0 0 azure
+}
+
+a,
+a:visited,
+a.ytfile,
+a.ytfile:hover,
+.ytlink {
+	text-decoration: none;
+	color: #1C2F30;
+}
+
+div.post a,
+div.body a,
+p.fileinfo a,
+span.mentioned.unimportant a {
+	text-decoration: none;
+}
+
+a:hover,
+p.intro a.post_no:hover,
+a:hover,
+.intro a.post_no:hover,
+.ytlink:hover,
+a.popular {
+	color: #E04000;
+}
+
+p.intro a.email span.name {
+	color: #1C2F30;
+}
+
+p.intro a.email:hover span.name {
+	color: #E04000;
+}
+
+p.intro label {
+	display: inline;
+}
+
+.intro span.subject {}
+
+header div.subtitle,
+h1 {
+	color: #055;
+}
+
+h2 a {
+	color: #003C3C!important;
+}
+
+h2 {
+	color: #055;
+	padding: 0px;
+	background-color: rgba(151, 255, 216, 0.34);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 1em 0px;
+}
+
+a.unimportant.ukkohide {
+	margin-left: 8px;
+}
+
+form table tr th {
+	color: #FFF;
+	border: 1px solid #631C00;
+	background-color: #FF691E;
+}
+
+tr.tblhead>th {
+	color: #FFF!important;
+}
+
+table.postForm>tbody>tr>td>input[type="text"] {
+	width: 244px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input:focus:not([type]),
+textarea:focus {
+	border: 1px solid #FF7800;
+}
+
+div.title {
+	color: #800000;
+}
+
+div.banner {
+	background-color: rgba(151, 255, 216, 0.34);
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 1em 0;
+}
+
+div.banner,
+div.banner a {
+	color: rgba(0, 60, 60, 1);
+}
+
+div.banner a:hover {
+	color: #AF0A0F;
+	text-decoration: none;
+}
+
+a.hide-thread-link,
+a.unhide-thread-link {}
+
+.mais {
+	background-image: url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais.png');
+}
+
+.menos {
+	background-image: url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos.png');
+}
+
+div.post.op hr {
+	border-color: #B7C9D5;
+}
+
+div.post.reply {
+	background: #D6F0DC;
+	border-color: #B7D9C3;
+}
+
+div.post.reply.highlighted {
+	background: #bad0d6;
+	border-color: #9dbabf;
+}
+
+div.post.reply div.body a,
+div.post div.body small {
+	color: #1C2F30;
+}
+
+span.trip {
+	color: #228854;
+}
+
+span.quote {
+	color: #648123;
+}
+
+span.omitted,
+span.toolong {
+	color: #5D5D5D;
+}
+
+div.ban {
+	border: 1px solid #179956;
+}
+
+div.ban h2 {
+	background: #A0E6CB;
+	color: #0B6537;
+	margin-top: 0px;
+}
+
+span.spoiler {
+	background: black;
+	color: black;
+	padding: 0px 1px;
+}
+
+table.test tr.h th {
+	background: #A0E6CB;
+}
+
+div.pages {
+	color: #88aa92;
+	background: #D6F0DC;
+	border-color: #B7D9C3;
+}
+
+@media screen and (max-width: 800px) {
+	div.pages.top {}
+}
+
+hr {
+	border-color: #A5C8C8;
+}
+
+div.boardlist {
+	color: #88aa92;
+}
+
+div.report {
+	color: #333;
+}
+
+table.modlog tr th {
+	color: #FFF;
+	border: 1px solid #631C00;
+	background-color: #EC5315;
+}
+
+td.minimal,
+th.minimal {}
+
+span.public_ban {
+	color: #ed1c24;
+}
+
+div.blotter {
+	color: red;
+}
+
+div.report {
+	color: #000;
+}
+
+table.mod.config-editor td {
+	border-bottom: 1px solid #A0E6CB;
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+	background-color: #D6F0DD;
+	border-color: #A9A9A9;
+}
+
+video.post-image {
+	display: block;
+	float: left;
+	margin: 10px 20px;
+	border: none;
+}
+
+div.post video.post-image {
+	padding: 0px;
+	margin: 10px 25px 5px 5px;
+}
+
+.form {
+	float: left;
+}
+
+#options_close i,
+#alert_close i {
+	background-color: #89cc93;
+	border-color: #0c5c1d
+}
+
+#options_div,
+#alert_div {
+	background-color: #d6f0da;
+	border: none
+}
+
+#options_tablist {
+	border-color: #B7D9C5;
+}
+
+.options_tab_icon.active {
+	color: #E04000;
+}
+
+.options_tab {}
+
+.options_tab h2 {
+	color: #055;
+	border-color: #B7D9C5;
+	background: none
+}
+
+div#watchlist {
+	background: #D6F0E4 solid #B6DBDC;
+	border-width: 1px;
+	border-top-width: 1px;
+	border-right-width-value: 1px;
+	border-bottom-width: 1px;
+	border-left-width-value: 1px;
+}
+
+form div.files>div.delete input {
+	background-color: #FF7800;
+	color: #FFF;
+}
+
+input#upload_file {
+	border: medium none;
+	width: 198px;
+	margin-right: 30px;
+}
+
+#quick-reply table {
+	background-color: #CDE9D7;
+	border: 1px solid #b6d9bb;
+}
+
+#quick-reply th {
+	border-color: #631C00;
+}
+
+.theme-catalog div.thread:hover {
+	background-color: #D6F0E4;
+	border-color: #B6DBDC;
+}
+
+div.post div.body small {}
+
+footer .copyright {
+	color: #777;
+}

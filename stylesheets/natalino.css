@@ -1,0 +1,447 @@
+body{
+    background:#d2ffee url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/natal_bg.png) repeat 0 0;
+    color:#000
+}
+a,a:visited,a.ytfile,a.ytfile:hover,.ytlink{
+    text-decoration:none;
+    color:#345456
+}
+div.post a,div.body a,p.fileinfo a,span.mentioned.unimportant a{
+    text-decoration:none
+}
+a:hover,p.intro a.post_no:hover,a:hover,.intro a.post_no:hover,.ytlink:hover,a.popular{
+    color:#d00
+}
+a.post_no{
+    color:#003;
+    text-decoration:none
+}
+p.intro a.post_no{
+    color:inherit
+}
+p.intro a.post_no,p.intro a.email{
+}
+p.intro a.email span.name{
+    color:#345456
+}
+p.intro a.email:hover span.name{
+    color:#d00
+}
+p.intro label{
+}
+p.intro time,p.intro a.ip-link,p.intro a.capcode{
+}
+h2 a{
+    color:#003c3c!important
+}
+h2{
+    color:#003c3c;
+    background-color:rgba(151,255,216,.34);
+    font-size:11pt;
+    font-weight:700;
+    text-align:center
+}
+a.unimportant.ukkohide{
+}
+header{
+}
+header div.subtitle,h1{
+    color:#0c6c17
+}
+header div.subtitle{
+}
+form{
+}
+form table tr th{
+    background:none repeat scroll 0% 0% #ef3c3c!important;
+    border-color:#000;
+    color:#fff
+}
+form table{
+}
+textarea#body{
+}
+input[type=text],input[type=password],textarea{
+    border:1px solid #a9a9a9
+}
+input[type=text]:focus,input[type=password]:focus,input:focus:not([type]),textarea:focus{
+    border:1px solid #f55b4f
+}
+form table tr td{
+}
+form table.mod tr td{
+}
+fform table tr th{
+    background:none repeat scroll 0% 0% #ff7800;
+    border:1px solid #000;
+    color:#fff
+}
+form table tr td div.center{
+}
+form table tr td div input{
+    margin:2px auto 0;
+    background-color:#ff7800;
+    border:1px solid #000
+}
+form table tr td div label{
+}
+.unimportant,.unimportant *{
+}
+p.fileinfo{
+}
+div.title{
+    color:maroon
+}
+div.banner{
+    background-color:rgba(151,255,216,.34)
+}
+div.banner,div.banner a{
+    color:#003c3c
+}
+div.banner a:hover{
+    color:#af0a0f
+}
+img.banner,img.board_image{
+    border:1px solid #a9a9a9
+}
+div.post img.post-image{
+}
+div.post img.icon{
+}
+div.post i.fa{
+}
+div.post.op{
+}
+div.post.op hr{
+    border-color:#b7c9d5
+}
+p.intro{
+}
+input.delete{
+    background-color:#ff7800;
+    border:1px solid #000
+}
+p.intro span.subject{
+    font-weight:800
+}
+p.intro span.name{
+    color:#e62727
+}
+p.intro span.capcode,p.intro a.capcode,p.intro a.nametag{
+    color:#f00000
+}
+p.intro a{
+}
+div.delete{
+}
+div.post.reply p{
+}
+div.post.reply div.body{
+}
+div.post.reply.highlighted{
+    background:#a9d8ff
+}
+div.post.reply div.body a{
+    color:#345456
+}
+div.post{
+}
+div.post div.body{
+}
+div.post.reply{
+    background:#f4faff;
+    border-color:#e1e1e1
+}
+span.trip{
+    color:#228854
+}
+span.quote{
+    color:#648123
+}
+span.omitted{
+    color:#5d5d5d
+}
+br.clear{
+}
+span.controls{
+}
+span.controls.op{
+}
+span.controls a{
+}
+div#wrap{
+}
+div.ban{
+    background:#fff;
+    border:1px solid #00e19a
+}
+div.ban p,div.ban h2{
+}
+div.ban h2{
+    background:#7ee9c7;
+    color:#074230
+}
+div.ban p{
+}
+div.ban p.reason{
+}
+span.heading{
+}
+span.spoiler{
+    background:#000;
+    color:#000
+}
+div.post.reply div.body span.spoiler a{
+    color:#000
+}
+span.spoiler:hover,div.post.reply div.body span.spoiler:hover a{
+    color:#fff
+}
+div.styles{
+    float:right;
+    padding-bottom:20px
+}
+div.styles a{
+}
+div.styles a.selected{
+    background:#ff7800;
+    color:#fff;
+    border:1px solid #ff7800
+}
+table.test{
+}
+table.test td,table.test th{
+}
+table.test tr.h th{
+    background:#98e
+}
+table.test td img{
+    margin:0
+}
+fieldset label{
+}
+div.pages{
+    color:#89a;
+    background:#f4faff;
+    border-right:1px solid #e1e1e1;
+    border-bottom:1px solid #e1e1e1
+}
+div.pages.top{
+    opacity:.9
+}
+@media screen and (max-width:800px){
+    div.pages.top{
+        display:none!important
+    }
+}
+div.pages a.selected{
+    color:#e62727;
+    font-weight:bolder
+}
+div.pages a{
+    text-decoration:none
+}
+div.pages form{
+}
+div.pages form input{
+}
+hr{
+    border-color:#b7d9c5;
+    border-top:1px solid #b7c5d9
+}
+div.boardlist{
+    color:#8898aa;
+    background-color:#eefdff
+}
+div.boardlist.bottom{
+    background:#d5faff
+}
+div.boardlist a{
+    color:#345456
+}
+div.boardlist a:hover{
+    color:#d00
+}
+div.boardlist a.popular{
+    color:red
+}
+div.report{
+    color:#333
+}
+table.modlog{
+}
+table.modlog tr td{
+}
+table.modlog tr th{
+}
+table.modlog tr th{
+}
+td.minimal,th.minimal{
+}
+div.top_notice{
+}
+span.public_ban{
+    color:#ed1c24
+}
+span.toolong{
+}
+div.blotter{
+    color:red
+}
+table.mod.config-editor{
+}
+table.mod.config-editor td{
+    border-bottom:1px solid #98e
+}
+table.mod.config-editor input[type=text]{
+}
+.desktop-style div.boardlist:nth-child(1){
+    background-color:#d5faff
+}
+.desktop-style div.boardlist:nth-child(1):hover,.desktop-style div.boardlist:nth-child(1).cb-menu{
+}
+.desktop-style body{
+}
+.desktop-style .sub{
+    background:inherit
+}
+.desktop-style .sub .sub{
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/arrow.png) right center no-repeat
+}
+.desktop-style .sub .sub:hover,.desktop-style .sub .sub.hover{
+    background:inherit
+}
+#attention_bar{
+}
+#attention_bar_form{
+}
+#attention_bar_input{
+}
+#attention_bar:hover{
+    background-color:rgba(100%,100%,100%,.2)
+}
+p.intro.thread-hidden{
+    opacity:.6
+}
+form.ban-appeal{
+}
+form.ban-appeal textarea{
+}
+.compact-boardlist{
+}
+.compact-boardlist .cb-item{
+}
+.compact-boardlist .cb-icon{
+}
+.compact-boardlist .cb-fa{
+}
+.compact-boardlist .cb-cat{
+}
+.cb-menuitem{
+}
+.cb-menuitem span{
+    border-top:1px solid rgba(0,0,0,.5)
+}
+.cb-menuitem span.cb-uri{
+}
+.boardlist:not(.compact-boardlist) #watch-pinned::before{
+    content:" [ "
+}
+.boardlist:not(.compact-boardlist) #watch-pinned::after{
+    content:" ] "
+}
+.boardlist:not(.compact-boardlist) #watch-pinned{
+    display:inline
+}
+.boardlist:not(.compact-boardlist) #watch-pinned a{
+    margin-left:3pt
+}
+.boardlist:not(.compact-boardlist) #watch-pinned a:first-child{
+    margin-left:0
+}
+.compact-boardlist #watch-pinned{
+    display:inline-block;
+    vertical-align:middle
+}
+video.post-image{
+}
+div.post video.post-image{
+}
+.form{
+}
+.options_tab h2{
+    color:#0c6c17;
+    border-color:#e1e1e1
+}
+.options_tab{
+    background:#eefdff
+}
+#options_tablist{
+    border-color:#e1e1e1
+}
+.options_tab_icon.active{
+}
+#options_div{
+}
+#options_div textarea{
+}
+#options_close i,#alert_close i{
+    background-color:#ef3c3c;
+    border:1px solid #333
+}
+div#watchlist{
+    background:#d6f0e4 solid #b6dbdc
+}
+#quick-reply input[type=text],input[type=password],#quick-reply textarea{
+}
+form div.files>div.delete input{
+    background-color:#ff7800;
+    color:#fff
+}
+input#upload_file{
+    background:100% transparent;
+    background-color:transparent;
+    color:#000;
+    border:none
+}
+input[type=text],input[type=password],textarea{
+    border:1px solid #aaa;
+    padding:2px 4px 3px;
+    margin:0 2px 0 0;
+    outline:medium;
+    font-family:arial,helvetica,sans-serif;
+    font-size:10pt
+}
+#options_div,#alert_div{
+    background-color:#eefdff
+}
+.theme-catalog div.thread{
+    background:rgba(182,182,182,.12);
+    border:2px solid rgba(111,111,111,.34)
+}
+.theme-catalog div.thread strong{
+}
+div.post div.body small{
+    color:#15474b;
+    font-size:.9em;
+    margin-left:-1px;
+    letter-spacing:.08em
+}
+p.fileinfo a{
+}
+p.fileinfo span.unimportant a{
+}
+p.fileinfo span.unimportant{
+}
+p.fileinfo span{
+}
+div.post.reply .file{
+}
+hr{
+    height:2px;
+    border:0!important;
+    background:url("https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/barra_natal.png") no-repeat scroll center center/100% 100% transparent
+}
+div .options_tab div{
+    margin:8px
+}

@@ -46,7 +46,7 @@ div.boardlist {
 
 @font-face {
   font-family: 'lain';
-  src: url('./fonts/nrdyyh.woff') format('woff'), url('./fonts/tojcxo.TTF') format('truetype');
+  src: url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/fonts/nrdyyh.woff') format('woff'), url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/fonts/tojcxo.TTF') format('truetype');
 }
 
 h1 {

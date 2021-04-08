@@ -1,12 +1,12 @@
 body {
 	font-family:arial,helvetica,sans-serif;
-	background:url(https://i.imgur.com/sgjFrPo.jpg);
+	background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/noiseligth.jpg);
 	background-repeat:repeat-x;
 	background-position:center top;
 	color:#000;
 }
 html {
-	background-image:url(https://i.imgur.com/sgjFrPo.jpg);
+	background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/noiseligth.jpg);
 	background-position:center top;
 	background-repeat:repeat;
 }
@@ -515,7 +515,7 @@ table.mod.config-editor input[type="text"] {
 	display:inline-block;
 	text-indent:-9000px;
 	width:7px;
-	background:url('img/arrow.png') right center no-repeat;
+	background:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/arrow.png') right center no-repeat;
 }
 .desktop-style .sub .sub:hover,.desktop-style .sub .sub.hover {
 	display:inline;
