@@ -1,5 +1,5 @@
 body{
-    background:#d2ffee url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/natal_bg.png) repeat 0 0;
+    background:#d2ffee url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/natal_bg.png) repeat 0 0;
     color:#000
 }
 a,a:visited,a.ytfile,a.ytfile:hover,.ytlink{
@@ -306,7 +306,7 @@ table.mod.config-editor input[type=text]{
     background:inherit
 }
 .desktop-style .sub .sub{
-    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/arrow.png) right center no-repeat
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/arrow.png) right center no-repeat
 }
 .desktop-style .sub .sub:hover,.desktop-style .sub .sub.hover{
     background:inherit
@@ -440,7 +440,7 @@ div.post.reply .file{
 hr{
     height:2px;
     border:0!important;
-    background:url("https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/barra_natal.png") no-repeat scroll center center/100% 100% transparent
+    background:url("https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/barra_natal.png") no-repeat scroll center center/100% 100% transparent
 }
 div .options_tab div{
     margin:8px

@@ -1,5 +1,5 @@
 body{
-    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/armas.jpg) repeat 0 0 azure
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/armas.jpg) repeat 0 0 azure
 }
 a,a:visited,a.ytfile,a.ytfile:hover,.ytlink,div.post.reply div.body a{
     color:#245166;
@@ -75,10 +75,10 @@ div.banner a:hover{
 a.hide-thread-link,a.unhide-thread-link{
 }
 .mais{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/mais.png)
 }
 .menos{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/menos.png)
 }
 div.post.op hr{
     border-color:#b7c9d5

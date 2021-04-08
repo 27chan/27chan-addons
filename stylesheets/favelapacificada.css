@@ -1,5 +1,5 @@
 body{
-    background:#eefff2 url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/fade-green.png) repeat-x 50% 0%
+    background:#eefff2 url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/fade-green.png) repeat-x 50% 0%
 }
 a,a:visited,a.ytfile,a.ytfile:hover,.ytlink,div.post.reply div.body a{
     text-decoration:none;
@@ -81,10 +81,10 @@ div.banner a:hover{
 a.hide-thread-link,a.unhide-thread-link{
 }
 .mais{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/mais.png)
 }
 .menos{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/menos.png)
 }
 div.post.op hr{
     border-color:#b7c9d5

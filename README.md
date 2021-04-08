@@ -3,7 +3,7 @@
 Themes created by anonymous users for the software Tinyboard, Vichan, 8chan, bazukachan...
 
 If you need to install this theme directly on your server, you need to remove this path:
-`https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/`
+`https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/`
 
 ### [27chan Original](https://raw.githubusercontent.com/anonynom/27chan-addons/master/css/27chan.css)
 ![27chan](https://i.imgur.com/pPKCOxr.png "27chan")

@@ -1,5 +1,5 @@
 body{
-    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/steam-v2.png) center top no-repeat #1b2838;
+    background:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/steam-v2.png) center top no-repeat #1b2838;
     color:#c6d4df
 }
 a,a:visited,a.ytfile,a.ytfile:hover,.ytlink{
@@ -81,10 +81,10 @@ div.banner a:hover{
 a.hide-thread-link,a.unhide-thread-link{
 }
 .mais{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/mais_steam.png)
 }
 .menos{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/menos_steam.png)
 }
 div.post.op hr{
     border-color:#4a5c6f
@@ -214,10 +214,10 @@ div#watchlist{
     border-left-width-value:1px
 }
 .more{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/mais_steam.png)
 }
 .lesss{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/menos_steam.png)
 }
 form div.files>div.delete input{
     background-color:#ff7800;

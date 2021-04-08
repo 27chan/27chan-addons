@@ -1,5 +1,5 @@
 body{
-    background:#000 url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/olho.gif) no-repeat bottom right fixed;
+    background:#000 url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/olho.gif) no-repeat bottom right fixed;
     color:#999;
     font-family:sans-serif;
     font-size:12px
@@ -178,10 +178,10 @@ div.report{
     color:#fff
 }
 .more{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/mais_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/mais_steam.png)
 }
 .lesss{
-    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/icons/menos_steam.png)
+    background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/icons/menos_steam.png)
 }
 #quick-reply table{
     background:none repeat scroll 0% 0% #222!important

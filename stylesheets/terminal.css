@@ -1,13 +1,13 @@
     body {
         font-family:monospace;
-        background:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/terminal333.png);
+        background:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/terminal333.png);
         background-repeat:repeat-x;
         background-position:center top;
         color:#BBB;
             font-size:8pt
     }
     html {
-        background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/terminal333.png);
+        background-image:url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/terminal333.png);
         background-position:center top;
         background-repeat:repeat;
             font-size:8pt
@@ -526,7 +526,7 @@
         display:inline-block;
         text-indent:-9000px;
         width:7px;
-        background:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/arrow.png') right center no-repeat;
+        background:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/arrow.png') right center no-repeat;
     }
     .desktop-style .sub .sub:hover,.desktop-style .sub .sub.hover {
         display:inline;

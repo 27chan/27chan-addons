@@ -1,12 +1,12 @@
 body {
-  background: url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/27chan_bg1.gif);
+  background: url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/27chan_bg1.gif);
   background-repeat: repeat-x;
   background-position: center top;
   color: #000
 }
 
 html {
-  background-image: url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/27chan_bg2.gif);
+  background-image: url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/27chan_bg2.gif);
   background-position: center top;
   background-repeat: repeat
 }
@@ -216,7 +216,7 @@ table.mod.config-editor td {
   display: inline-block;
   text-indent: -9000px;
   width: 7px;
-  background: url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/arrow.png') right center no-repeat;
+  background: url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/arrow.png') right center no-repeat;
 }
 
 .theme-catalog div.thread img {

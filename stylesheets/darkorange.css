@@ -13,7 +13,7 @@
 * 14/03/2018 20h30 - v0.92 Alterado menu de opÃ§Ãµes, cores dos capcodes e do [code].*/
 
 @import "//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700";html,body {
-	background: #333 url(https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/armas-dark.png)!important;
+	background: #333 url(https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/armas-dark.png)!important;
 	color: #e6e6e6!important;
 	font-family: noto sans,helvetica neue,Helvetica,sans-serif;
 	font-size: 13px;

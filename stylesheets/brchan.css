@@ -2,7 +2,7 @@
 * by bananalchan.org*/
 body{
     background:#ffe;
-    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg.png');
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_bg.png');
     background-repeat:repeat-x,repeat;
     background-attachment:scroll,scroll;
     color:#242B23;
@@ -71,7 +71,7 @@ div.banner{
     background-color:#045F11;
 }
 .bl-menu{
-    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_bg.png');
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_bg1.png'),url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_bg.png');
     background-repeat:repeat-x,repeat;
     background-attachment:scroll,scroll;
 }
@@ -82,7 +82,7 @@ div.banner{
     font-weight:600;
 }
 div.post.reply{
-    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_td.png');
     border:2px solid #E5D959;
     webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -93,7 +93,7 @@ div.post.reply{
     box-shadow: 0px 2px 3px rgba(0,0,0,0.35);
 }
 div.post.reply.highlighted{
-    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_td.png');
     border:2px dashed #65ab6b;
     webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -143,7 +143,7 @@ div.ban p{
 div.pages{
     color:#054500;
     background:#000;
-    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/stylesheets/img/jungle_td.png');
+    background-image:url('https://raw.githubusercontent.com/27chan/27chan-addons/master/stylesheets/img/jungle_td.png');
     border:#E5D959 2px solid;
     font-family:sans-serif;
     font-size:10pt;
